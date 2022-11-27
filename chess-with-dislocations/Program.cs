@@ -1,12 +1,10 @@
 ﻿namespace chess_with_dislocations;
 
- // See https://aka.ms/new-console-template for more information
-class program
+internal static class Program
 {
- static void Main()
+ private static void Main()
  {
-  ClIinterface CLI = new ClIinterface();
-  Board board = new Board();
+  var board = new Board();
   ClIinterface.DisplayBoard(board.Content());
  }
 }
