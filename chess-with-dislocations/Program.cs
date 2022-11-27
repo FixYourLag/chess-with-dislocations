@@ -5,7 +5,8 @@ class program
 {
  static void Main()
  {
+  ClIinterface CLI = new ClIinterface();
   Board board = new Board();
-  Console.Write("test");
+  ClIinterface.DisplayBoard(board.Content());
  }
 }
