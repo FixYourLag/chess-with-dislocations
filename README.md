@@ -23,5 +23,26 @@ the board shoud use OOP patterns to reduce code redundancy i.e. have a class for
       }
       class Knight{
       }
-     
+      class Bishop{
+      }
+      class Queen{
+      }
+      class King{
+      }
+      class OutOfBounds{
+      }
+      class Empty{
+      }
+      class Pieces{
+         - info : PieceInfo
+         - GetType() : char
+         - IsEmpty() : bool
+      }
+      class PieceInfo{
+         - rank : int
+         - file : int
+         - team : bool
+         - type : char
+         - isEmpty : bool
+      }
 ```
