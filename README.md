@@ -35,8 +35,8 @@ the board shoud use OOP patterns to reduce code redundancy i.e. have a class for
       }
       class Pieces{
          - info : PieceInfo
-         - GetType() : char
-         - IsEmpty() : bool
+         + GetType() : char
+         + IsEmpty() : bool
       }
       class PieceInfo{
          - rank : int
@@ -44,5 +44,9 @@ the board shoud use OOP patterns to reduce code redundancy i.e. have a class for
          - team : bool
          - type : char
          - isEmpty : bool
+      }
+      class Board{
+         # board : Peices[,]
+         + content() : Peices[,]
       }
 ```
