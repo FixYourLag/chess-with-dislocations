@@ -52,3 +52,5 @@ the board shoud use OOP patterns to reduce code redundancy i.e. have a class for
 ```
 ## grapical interface
 as part of this project i will be implementing a grapical user interface, it should be intuitve to the user and allow for easy to learn gameplay 
+## engine
+the program should have both modes for player vs player and computer vs player gameplay, and should have an engine that can decide moves based on the position of the game and how they will unfold in the game, it should balance how good the move is with how long it takes to calculate
