@@ -50,3 +50,5 @@ the board shoud use OOP patterns to reduce code redundancy i.e. have a class for
          + content() : Peices[,]
       }
 ```
+## grapical interface
+as part of this project i will be implementing a grapical user interface, it should be intuitve to the user and allow for easy to learn gameplay 
