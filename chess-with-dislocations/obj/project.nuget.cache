@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EuU8AS/AnF7uG65sDETzD6hYm8H0lVtIOiGGXIuQAt3Vmgf8J5d52BAIwxD8Ooe7KUI04pHlYRHlvLkm6b0ZTA==",
+  "dgSpecHash": "46dX7zY4BjjaNWx6KjP+QYVljW+khbnhREtYBVMlvs5c00TC61jxsrVLzH1ocjm5nmVuNrwhKiUp+7j8CpC/Mg==",
   "success": true,
   "projectFilePath": "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/chess-with-dislocations.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/maddy/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/maddy/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

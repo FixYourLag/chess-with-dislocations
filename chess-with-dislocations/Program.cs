@@ -2,9 +2,9 @@
 
 internal static class Program
 {
- private static void Main()
- {
-  var board = new Board();
-  ClIinterface.DisplayBoard(board.Content());
- }
+    private static void Main()
+    {
+        Game game = new Game();
+        
+    }
 }
