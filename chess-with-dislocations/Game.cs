@@ -1,4 +1,3 @@
-using 
 namespace chess_with_dislocations;
 
 public class Game
