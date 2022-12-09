@@ -5,6 +5,6 @@ internal static class Program
     private static void Main()
     {
         Game game = new Game();
-        
+        ClIinterface.DisplayBoard(game.getBoard());
     }
 }

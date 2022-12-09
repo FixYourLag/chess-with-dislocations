@@ -8,8 +8,11 @@ public class Game
     }
     bool isWhiteTurn = true;
     Board board = new Board();
-
-
+    
+    public Pieces[,] getBoard()
+    {
+        return board.Content();
+    }
     public bool isMoveLegal(int x1, int y1, int x2, int y2)
     {
         Pieces[,] piecesArray = new Pieces[23,23];
