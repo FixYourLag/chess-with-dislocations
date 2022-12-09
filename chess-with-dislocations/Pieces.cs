@@ -28,6 +28,10 @@ public class Pieces
     {
         return Info.IsEmpty;
     }
+    public bool IsWhite()
+    {
+        return Info.Team;
+    }
 }
 
 public class Pawn : Pieces
