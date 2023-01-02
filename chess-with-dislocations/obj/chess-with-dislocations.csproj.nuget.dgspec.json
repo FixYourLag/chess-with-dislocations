@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/chess-with-dislocations.csproj": {}
+    "/home/maddy/RiderProjects/chess-with-dislocationsfixed/chess-with-dislocations/chess-with-dislocations.csproj": {}
   },
   "projects": {
-    "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/chess-with-dislocations.csproj": {
+    "/home/maddy/RiderProjects/chess-with-dislocationsfixed/chess-with-dislocations/chess-with-dislocations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/chess-with-dislocations.csproj",
+        "projectUniqueName": "/home/maddy/RiderProjects/chess-with-dislocationsfixed/chess-with-dislocations/chess-with-dislocations.csproj",
         "projectName": "chess-with-dislocations",
-        "projectPath": "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/chess-with-dislocations.csproj",
+        "projectPath": "/home/maddy/RiderProjects/chess-with-dislocationsfixed/chess-with-dislocations/chess-with-dislocations.csproj",
         "packagesPath": "/home/maddy/.nuget/packages/",
-        "outputPath": "/home/maddy/RiderProjects/chess-with-dislocations/chess-with-dislocations/obj/",
+        "outputPath": "/home/maddy/RiderProjects/chess-with-dislocationsfixed/chess-with-dislocations/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maddy/.nuget/NuGet/NuGet.Config"
@@ -43,19 +43,14 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.11, 6.0.11]"
+              "version": "[6.0.12, 6.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -63,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.112/RuntimeIdentifierGraph.json"
         }
       }
     }
