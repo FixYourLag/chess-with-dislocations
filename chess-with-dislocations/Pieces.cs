@@ -14,7 +14,7 @@ public class Pieces
     
     // store position of piece
     protected PieceInfo Info;
-    protected Pieces()
+    public Pieces()
     {
         Info.IsEmpty = true;
     }
