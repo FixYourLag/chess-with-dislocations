@@ -10,12 +10,12 @@ internal static class Program
         while (!gameIsOver)
         {
             Console.WriteLine("Enter your move:");
-            int row1 = int.Parse(Console.ReadLine());
             int col1 = int.Parse(Console.ReadLine());
-            int row2 = int.Parse(Console.ReadLine());
+            int row1 = int.Parse(Console.ReadLine());
             int col2 = int.Parse(Console.ReadLine());
+            int row2 = int.Parse(Console.ReadLine());
             Console.Write("moving ");
-            if (game.getBoard()[row1, col1].IsWhite())
+            if (game.getBoard()[col1, row1].IsWhite())
             {
                 Console.Write("white ");
             }
@@ -23,7 +23,7 @@ internal static class Program
             {
                 Console.Write("black ");
             }
-            Console.WriteLine(game.getBoard()[row1,col1].GetType() + " from " + row1 + ", " + col1 + " to " + row2 + ", " + col2);
+            Console.WriteLine(game.getBoard()[col1,row1].GetType() + " from " + col1 + ", " + row1 + " to " + col2 + ", " + row2);
             game.MakeMove(col1, row1, col2, row2);
             ClIinterface.DisplayBoard(game.getBoard());
         }
