@@ -7,6 +7,8 @@ there should also be an ai where the computer can also make a move, that it calc
 
 ## implementation
 the board shoud use OOP patterns to reduce code redundancy i.e. have a class for pieces and have each peice as a child class, this means that the data that is shared by all pieces is not repeated and the unique methods to each piece are held induvidualy 
+
+a struct is also implemented to hold important information about the peice in a logical format
 ```mermaid
    classDiagram
       Pieces <|-- Pawn
